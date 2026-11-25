@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Enter a text: ");
+        Console.Write("enter a text ");
         string text = Console.ReadLine().ToLower();
 
         int count = 0;
@@ -15,6 +15,6 @@ class Program
                 count++;
         }
 
-        Console.WriteLine("Vowel Count: " + count);
+        Console.WriteLine("Vowel count " + count);
     }
 }
